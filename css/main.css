@@ -11,6 +11,10 @@ h1 {
     font-size: 49px;
 }
 
+.date{
+	display: none;
+}
+
 img {
 	background-color: #fff;
 	float: left;
