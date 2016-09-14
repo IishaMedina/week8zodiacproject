@@ -5,10 +5,23 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<h1>Horoscope</h1>
+	
+	<h1 class="title">Horoscope</h1>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".title").mouseenter(function(){
+				$(".title").slideUp ("slow")
+			})
+		})
+	</script>	
+
 	<div class="signs">
 		<a href="http://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=11">
-			<img src="img/aquarius.jpg">
+			<img src="img/aquarius.jpg" class="image">
+
+			
 		</a>
 		<span><b>Aquarius</b></span><br>
 		<span>January 20-Februry 18</span>

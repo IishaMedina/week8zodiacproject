@@ -1,0 +1,33 @@
+body {
+	background-image: url(../img/galaxy.jpg);
+	margin-left: 78px;
+}
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 200%;
+	color: #fff;
+	font-weight: 100;
+    font-size: 49px;
+}
+
+.date{
+	display: none;
+}
+
+img {
+	background-color: #fff;
+	float: left;
+}
+.signs {
+	width:49%;
+	display: inline-block;
+	text-align: center;
+	padding: 25px 0;
+
+}
+
+span {
+	color: #fff;
+}
+
